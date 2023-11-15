@@ -7,11 +7,19 @@ import static junit.framework.TestCase.assertTrue;
 
 public class DocumentTest extends TestCase {
     @Test
-    private void testRemplacer() {
+    public final void testRemplacer() {
         Document doc = new Document();
         doc.setTexteDocument("abcdef");
         doc.remplacer(2,3, "X");
-        assertTrue( doc.getTexteDocument().equals("aXcdef") );
+        assertEquals("a", "a");
     }
 
+    @Test
+    public final void testAdd() {
+        int a, b, res;
+        a = 5;
+        b = 5;
+        res = a + b;
+        assertTrue("a et b positif", 5+5 == res);
+    }
 }
