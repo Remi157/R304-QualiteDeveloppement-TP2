@@ -9,5 +9,5 @@
         #Suite des actions...
         - name: Setup
           uses: actions/setup-java@v1
-        - name: Setup
+        - name: Mvn
           run: mvn test
