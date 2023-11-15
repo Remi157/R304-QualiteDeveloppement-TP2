@@ -27,3 +27,5 @@ jobs:
           remote_path: /home/ann2/vachalder/public_html/hello_world_site
           # Si on utilise sftp
           sftp_only: true
+
+          # comm
