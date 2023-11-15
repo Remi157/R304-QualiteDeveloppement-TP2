@@ -11,7 +11,7 @@ public class DocumentTest extends TestCase {
         Document doc = new Document();
         doc.setTexteDocument("abcdef");
         doc.remplacer(2,3, "X");
-        assertEquals("a", "a");
+        assertEquals(doc.getTexteDocument(), "abXdef");
     }
 
     @Test
