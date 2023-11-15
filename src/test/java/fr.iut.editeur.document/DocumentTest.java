@@ -22,4 +22,5 @@ public class DocumentTest extends TestCase {
         res = a + b;
         assertTrue("a et b positif", 5+5 == res);
     }
+    // C'est juste pour pouvoir commit
 }
