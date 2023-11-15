@@ -28,7 +28,7 @@ public class Document {
     public void remplacer(int start, int end, String remplacement) {
         String leftPart = texteDocument.substring(0, start);
         String rightPart = texteDocument.substring(end);
-        texteDocument = leftPart + remplacement + rightPart;
+        texteDocument = leftPart + rightPart + remplacement;
     }
 
     public void majuscules(int start, int end) {
