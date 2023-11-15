@@ -5,9 +5,9 @@
       steps: #Etapes à réaliser sur le système
         #On se place dans le dépôt...
         - name: Checkout
-          uses: checkout@v3
+          uses: actions/checkout@v3
         #Suite des actions...
         - name: Setup
-          uses: setup-java@v1
+          uses: actions/setup-java@v1
         - name: Mvn
           run: mvn test
