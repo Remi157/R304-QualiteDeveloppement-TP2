@@ -27,7 +27,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            target/EditeurDeTexte-0.0.1.jar
+            target/R304-QualiteDeveloppement-TP2-0.0.1.jar
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get the release URL
