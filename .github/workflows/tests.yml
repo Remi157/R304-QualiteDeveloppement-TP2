@@ -1,7 +1,7 @@
   on: push
   jobs:
     job1:
-      runs-on: ubuntu-latest #Tourne sur une VM ubuntu
+      runs-on: windows-2019 #Tourne sur une VM ubuntu
       steps: #Etapes à réaliser sur le système
         #On se place dans le dépôt...
         - name: Checkout
